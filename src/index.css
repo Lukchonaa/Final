@@ -1,0 +1,90 @@
+/* Reset and Base Styles */
+:root {
+  --orange: hsl(26, 100%, 55%);
+  --pale-orange: hsl(25, 100%, 94%);
+  --dark-blue: hsl(220, 13%, 13%);
+  --grayish-blue: hsl(220, 14%, 75%);
+  --light-grayish-blue: hsl(223, 64%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Product Page Layout */
+.product-page {
+  display: flex;
+  gap: 5rem;
+  padding: 3rem 0;
+}
+
+/* Gallery Styles */
+.gallery-container {
+  width: 50%;
+}
+
+.main-image-wrapper {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--white);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 1rem;
+}
+
+.next-btn {
+  right: 1rem;
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* Add responsive styles as needed */
+@media (max-width: 768px) {
+  .product-page {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .gallery-container {
+    width: 100%;
+  }
+}

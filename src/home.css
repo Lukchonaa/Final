@@ -1,0 +1,143 @@
+
+
+.home-container {
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #4ee1a0;
+}
+
+.description {
+  margin-top: 1rem;
+  color: #999;
+}
+
+.contact-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #fff;
+  border-bottom: 2px solid #4ee1a0;
+  text-decoration: none;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  padding: 3rem 1.5rem;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.skill {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.projects {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.project-image {
+  height: 180px;
+  background-color: #333;
+}
+
+.project-content {
+  padding: 1rem;
+}
+
+.project-tags {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.view-project {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #fff;
+  border-bottom: 1px solid #4ee1a0;
+  text-decoration: none;
+}
+
+.contact-section {
+  background-color: #111;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-description {
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background: #222;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 0.75rem 1.5rem;
+  background: #4ee1a0;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.footer-note {
+  color: #666;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
