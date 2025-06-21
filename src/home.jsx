@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/reset.css";  
 import "./styles/home.css"; 
 
 export default function Home() {
@@ -8,10 +9,10 @@ export default function Home() {
       <header className="header">
         <h1>
           Nice to meet you!
-          <br /> I’m <span className="highlight">Adam Keyes</span>.
+          <br /> I’m <span className="highlight">Luka Tkeshelashvili</span>.
         </h1>
         <p className="description">
-          Based in the UK, I’m a front-end developer passionate about building
+          Based in Georgia, I’m a front-end developer passionate about building
           accessible web apps that users love.
         </p>
         <a href="#contact" className="contact-link">
@@ -60,7 +61,7 @@ export default function Home() {
             <button type="submit">Send Message</button>
           </form>
         </div>
-        <div className="footer-note">© adamkeyes</div>
+        <div className="footer-note">© lukatkeshelashvili</div>
       </footer>
     </div>
   );
